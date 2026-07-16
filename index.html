@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Haflah Takharruj - 36 Peismataris</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo logo/logo angkatan.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Pinyon+Script&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Envelope Overlay -->
+    <div id="envelope-overlay" class="envelope-overlay">
+        <div class="envelope-hint">
+            <i class="fa-solid fa-arrow-down hint-arrow"></i>
+            <p>Klik amplop untuk membuka undangan</p>
+        </div>
+        <div class="envelope-container" id="envelope-container">
+            <div class="envelope">
+                <div class="envelope-back"></div>
+                <div class="envelope-paper" id="envelope-paper">
+                    <div class="paper-decoration-top"></div>
+                    <p class="envelope-text">Kepada Yth,</p>
+                    <p class="envelope-guest">Tamu Undangan</p>
+                    <div class="paper-decoration-bottom"></div>
+                </div>
+                <div class="envelope-front"></div>
+                <div class="envelope-flap" id="envelope-flap">
+                    <div class="wax-seal"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Transition Element -->
+        <div id="transition-screen" class="transition-screen"></div>
+    </div>
+    <!-- Main Website Content -->
+    <main id="main-content" class="main-content hidden">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-overlay"></div>
+            <!-- Islamic Geometric Pattern Background -->
+            <div class="hero-pattern"></div>
+            <!-- Corner Ornaments -->
+            <div class="corner-ornament top-left"></div>
+            <div class="corner-ornament top-right"></div>
+            <div class="corner-ornament bottom-left"></div>
+            <div class="corner-ornament bottom-right"></div>
+            <div class="hero-content">
+                <img src="logo logo/kaligrafi haflah.png" alt="Kaligrafi Haflah" class="hero-kaligrafi">
+                <p class="hero-road-to">ROAD TO</p>
+                <h1 class="hero-title">HAFLATUT TAKHARRUJ</h1>
+                <p class="hero-peismataris">MTS-MA-KEPESANTRENAN</p>
+                <p class="hero-slogan">"Meneguhkan Adab, Mengokohkan Ilmu, Mengabdi Untuk Ummat"</p>
+                <div class="spacer-blank"></div>
+                <p class="hero-pesantren">Pesantren Al-Hamidiyah</p>
+            </div>
+        </section>
+        <!-- Countdown Section -->
+        <section class="countdown-section">
+            <div class="container text-center">
+                <h2 class="section-title" style="margin-bottom: 10px;">Menuju Hari Bahagia</h2>
+                <p class="target-date-display">Senin, 15 Juni 2026</p>
+                <div class="countdown-container">
+                    <div class="countdown-card">
+                        <span id="days" class="countdown-number">00</span>
+                        <span class="countdown-label">Hari</span>
+                    </div>
+                    <div class="countdown-card">
+                        <span id="hours" class="countdown-number">00</span>
+                        <span class="countdown-label">Jam</span>
+                    </div>
+                    <div class="countdown-card">
+                        <span id="minutes" class="countdown-number">00</span>
+                        <span class="countdown-label">Menit</span>
+                    </div>
+                    <div class="countdown-card">
+                        <span id="seconds" class="countdown-number">00</span>
+                        <span class="countdown-label">Detik</span>
+                    </div>
+                </div> <!-- End countdown-container -->
+                <div class="calendar-action" style="margin-top: 40px;">
+                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Haflah+Takharruj+36+Peismataris&dates=20260615T010000Z/20260615T060000Z&details=Acara+Kelulusan+Pesantren+Al-Hamidiyah&location=Universitas+Terbuka,+Pondok+Cabe,+Tangerang+Selatan"
+                        target="_blank" class="btn-outline-gold"
+                        style="padding: 12px 24px; font-size: 1rem; display: inline-block;">
+                        <i class="fa-regular fa-calendar-plus" style="margin-right: 8px;"></i> Tambahkan ke Kalender
+                    </a>
+                </div>
+            </div> <!-- End container -->
+        </section>
+        <!-- Location & Event Details -->
+        <section class="event-details">
+            <div class="container">
+                <h2 class="section-title">Detail Acara</h2>
+                <div class="event-grid">
+                    <div class="event-info glass-card">
+                        <div class="info-item">
+                            <i class="fa-regular fa-calendar icon-gold"></i>
+                            <div>
+                                <h3>Tanggal</h3>
+                                <p>Senin, 15 Juni 2026</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-regular fa-clock icon-gold"></i>
+                            <div>
+                                <h3>Waktu</h3>
+                                <p>08:00 WIB - Selesai</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot icon-gold"></i>
+                            <div>
+                                <h3>Lokasi</h3>
+                                <p>Universitas Terbuka</p>
+                                <p class="address-text">Jl. Cabe Raya, Pd. Cabe Udik, Pamulang, Kota Tangerang Selatan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-map glass-card">
+                        <div class="embed-map-responsive">
+                            <div class="embed-map-container">
+                                <iframe class="embed-map-frame" frameborder="0" scrolling="no" marginheight="0"
+                                    marginwidth="0"
+                                    src="https://maps.google.com/maps?width=600&height=400&hl=en&q=Jl.%20Pd.%20Cabe%20Raya%2C%20Pd.%20Cabe%20Udik%2C%20Kec.%20Pamulang%2C%20Kota%20Tangerang%20Selatan%2C%20Banten%2015437&t=&z=14&ie=UTF8&iwloc=B&output=embed"></iframe>
+                            </div>
+                            <style>
+                                .embed-map-responsive {
+                                    position: relative;
+                                    text-align: right;
+                                    width: 100%;
+                                    height: 0;
+                                    padding-bottom: 66.66666666666666%;
+                                    border-radius: 10px;
+                                    overflow: hidden;
+                                    margin-bottom: 20px;
+                                }
+
+                                .embed-map-container {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    width: 100%;
+                                    height: 100%;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                }
+
+                                .embed-map-frame {
+                                    width: 100% !important;
+                                    height: 100% !important;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                }
+                            </style>
+                        </div>
+                        <a href="https://www.google.com/maps/place/Universitas+Terbuka/@-6.3394413,106.7585911,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69ef08f457653d:0xad427032b3668869!8m2!3d-6.3394413!4d106.7585911!16zL20vMGN4bnFn?entry=ttu&g_ep=EgoyMDI2MDQyNy4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank" class="btn-outline-gold mt-4">
+                            <i class="fa-solid fa-location-arrow"></i> Buka di Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Quotes / Quran Section -->
+        <section class="quotes-section">
+            <div class="container">
+                <div class="quote-card-elegant">
+                    <div class="quran-quote-block">
+                        <p class="arabic-verse" dir="rtl">يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا
+                            الْعِلْمَ دَرَجَاتٍ</p>
+                        <p class="translation-text">Niscaya Allah akan meninggikan orang-orang yang beriman di antaramu
+                            dan orang-orang yang diberi ilmu pengetahuan beberapa derajat.</p>
+                        <p class="surah-reference">(Q.S. Al-Mujadilah: 11)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Memory Gallery -->
+        <section class="gallery-section">
+            <div class="gallery-overlay"></div>
+            <div class="gallery-pattern"></div>
+            <div class="container">
+
+                <div class="container">
+                    <h2 class="section-title">Galeri Kenangan</h2>
+                    <div class="gallery-grid">
+                        <!-- Images 16:9 Landscape - Islamic Geometrical Pattern / Architecture -->
+                        <div class="gallery-item">
+                            <img src="foto foto/1.JPG" alt="Kenangan 1">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/2.jpg" alt="Kenangan 2">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/3.jpg" alt="Kenangan 3">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/4.jpg" alt="Kenangan 4">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/5.jpg" alt="Kenangan 5">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/6.JPG" alt="Kenangan 6">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/7.JPG" alt="Kenangan 7">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/8.JPG" alt="Kenangan 8">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/9.JPG" alt="Kenangan 9">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/10.jpeg" alt="Kenangan 10">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/11.jpeg" alt="Kenangan 11">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/12.jpeg" alt="Kenangan 12">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/13.jpeg" alt="Kenangan 13">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/14.jpeg" alt="Kenangan 14">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="foto foto/15.jpeg" alt="Kenangan 15">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Attendance & Guest Book Section -->
+        <section class="attendance-section" id="absensi">
+            <div class="container">
+                <h2 class="section-title">Buku Absensi & Ucapan</h2>
+                
+                <div class="attendance-grid">
+                    <!-- Form Absensi Card -->
+                    <div class="attendance-form-card glass-card">
+                        <div class="card-header-elegant">
+                            <h3><i class="fa-solid fa-pen-to-square"></i> Isi Kehadiran</h3>
+                            <p>Silakan isi daftar hadir dan berikan ucapan doa terbaik Anda.</p>
+                        </div>
+                        <form id="attendance-form" class="elegant-form">
+                            <div class="form-group">
+                                <label for="guest-name"><i class="fa-solid fa-user"></i> Nama Lengkap</label>
+                                <input type="text" id="guest-name" required placeholder="Masukkan nama lengkap Anda..." autocomplete="off">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="guest-category"><i class="fa-solid fa-users"></i> Kategori Tamu</label>
+                                <select id="guest-category">
+                                    <option value="Santri">Santri</option>
+                                    <option value="Alumni">Alumni</option>
+                                    <option value="Wali Santri">Wali Santri</option>
+                                    <option value="Civitas">Civitas</option>
+                                    <option value="Lainnya">Lainnya</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="guest-wishes"><i class="fa-solid fa-comment-dots"></i> Ucapan & Doa Restu</label>
+                                <textarea id="guest-wishes" rows="4" placeholder="Tuliskan ucapan selamat atau doa restu Anda di sini..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-gold w-100" id="btn-submit-attendance">
+                                <span class="btn-text">Kirim Absensi</span>
+                                <span class="spinner hidden"><i class="fa-solid fa-circle-notch fa-spin"></i></span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Live Wishes Feed Card -->
+                    <div class="wishes-feed-card glass-card">
+                        <div class="card-header-elegant">
+                            <h3><i class="fa-solid fa-comments"></i> Ucapan Hadirin</h3>
+                            <p>Doa dan harapan dari para hadirin takharruj.</p>
+                        </div>
+                        <div class="wishes-container" id="wishes-container">
+                            <!-- Live feed items will be generated here -->
+                            <div class="wishes-loading">
+                                <i class="fa-solid fa-circle-notch fa-spin"></i> Memuat ucapan...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Farewell Section -->
+        <section class="farewell-section">
+            <div class="container">
+                <div class="farewell-container-new">
+                    <img src="logo logo/logo angkatan.png" alt="Logo Angkatan" class="footer-logo-animated">
+                    <!-- Elegant Title Lockup -->
+                    <div class="farewell-title-lockup">
+                        <span class="farewell-the">.the</span>
+                        <h2 class="farewell-final">final</h2>
+                        <h3 class="farewell-chapter">chapter</h3>
+                    </div>
+
+                    <!-- Subtitle -->
+                    <p class="farewell-subtitle">A story told in laughter, tears, and memories.</p>
+
+                    <!-- Content Paragraphs -->
+                    <div class="farewell-body">
+                        <p>Waktu berlalu begitu cepat, meninggalkan kenangan yang akan selalu terukir di hati. Tawa,
+                            tangis, dan perjuangan menuntut ilmu bersama di <em>Pesantren Al-Hamidiyah</em> kini menjadi
+                            cerita
+                            indah yang mengantarkan kita ke <em>gerbang masa depan</em>.</p>
+                        <p>Semoga setiap langkah yang kita ambil ke depan selalu diiringi ridha Ilahi. Sampai jumpa di
+                            <em>puncak kesuksesan</em>, teman-teman seperjuangan!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container footer-content-container">
+                <!-- Top Section: Greeting -->
+                <div class="footer-greeting-section">
+                    <p class="footer-thanks">Hormat kami,</p>
+                    <h3 class="footer-greeting">Keluarga Besar Angkatan 36</h3>
+                </div>
+                <!-- 2-Column Links Grid -->
+                <div class="footer-links-grid">
+                    <!-- Column 1: Image -->
+                    <div class="footer-col footer-col-image">
+                        <div class="footer-main-image">
+                            <video src="foto foto/penutupan.mp4" playsinline autoplay loop muted></video>
+                        </div>
+                    </div>
+                    <!-- Column 2: Kontak -->
+                    <div class="footer-col">
+                        <div class="footer-social-buttons">
+                            <a href="https://www.instagram.com/peism4taries_/" class="btn-social btn-instagram"><i
+                                    class="fa-brands fa-instagram"></i>instagram</a>
+                            <a href="#" class="btn-social btn-linktree"><i class="fa-solid fa-link"></i>linktree</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bottom Bar (Logos & Copyright) -->
+                <div class="footer-bottom-bar">
+                    <div class="footer-copyright-info">
+                        <p>Keluarga Besar Pesantren Al-Hamidiyah</p>
+                        <p>Angkatan 36 Peismataris</p>
+                        <div class="footer-flags">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <i class="fa-solid fa-book-quran"></i>
+                            <i class="fa-solid fa-mosque"></i>
+                            <i class="fa-solid fa-star-and-crescent"></i>
+                        </div>
+                        <p class="footer-rights">&copy; 2026 Peismataris. All rights reserved. | <a href="#" id="admin-login-trigger" class="admin-link"><i class="fa-solid fa-key"></i> Portal Admin</a></p>
+                    </div>
+                    <!-- Logos -->
+                    <div class="footer-partner-logos">
+                        <img src="logo logo/logo pesantren.png" alt="Logo Pesantren" class="footer-logo logo-pesantren">
+                        <img src="logo logo/logo santri kitab.png" alt="Logo Santri Kitab"
+                            class="footer-logo logo-santri">
+                        <img src="logo logo/logo steammi.png" alt="Logo Steammi" class="footer-logo logo-steammi">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <div id="gallery-modal" class="gallery-modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <!-- Admin Dashboard Modal -->
+    <div id="admin-modal" class="admin-modal">
+        <div class="admin-modal-content glass-card">
+            <span class="admin-modal-close" id="admin-close">&times;</span>
+            
+            <!-- Step 1: Admin Authorization Form -->
+            <div id="admin-auth-container" class="admin-auth-container">
+                <div class="text-center auth-header">
+                    <i class="fa-solid fa-shield-halved auth-icon"></i>
+                    <h2>Otorisasi Admin</h2>
+                    <p>Masukkan kata sandi admin untuk masuk ke dashboard absensi.</p>
+                </div>
+                <form id="admin-auth-form" class="elegant-form">
+                    <div class="form-group">
+                        <label for="admin-password"><i class="fa-solid fa-lock"></i> Kata Sandi</label>
+                        <input type="password" id="admin-password" required placeholder="Masukkan kata sandi admin..." autocomplete="current-password">
+                        <p class="auth-error-msg hidden" id="auth-error"><i class="fa-solid fa-circle-exclamation"></i> Kata sandi salah!</p>
+                    </div>
+                    <button type="submit" class="btn-gold w-100">Masuk</button>
+                </form>
+            </div>
+
+            <!-- Step 2: Admin Dashboard Content (Hidden initially) -->
+            <div id="admin-dashboard-container" class="admin-dashboard-container hidden">
+                <div class="dashboard-header">
+                    <h2><i class="fa-solid fa-chart-line"></i> Dashboard Absensi Tamu</h2>
+                    <div class="dashboard-actions">
+                        <button class="btn-outline-gold btn-sm" id="btn-export-csv"><i class="fa-solid fa-download"></i> Ekspor CSV</button>
+                        <button class="btn-outline-gold btn-sm btn-danger-outline" id="btn-reset-data"><i class="fa-solid fa-trash-can"></i> Reset Data</button>
+                        <button class="btn-outline-gold btn-sm" id="btn-admin-logout"><i class="fa-solid fa-right-from-bracket"></i> Keluar</button>
+                    </div>
+                </div>
+
+                <!-- Dashboard Tabs -->
+                <div class="dashboard-tabs">
+                    <button class="tab-btn active" data-tab="tab-data"><i class="fa-solid fa-table-list"></i> Data Tamu</button>
+                    <button class="tab-btn" data-tab="tab-settings"><i class="fa-solid fa-gears"></i> Pengaturan</button>
+                </div>
+
+                <div class="tab-contents">
+                    <!-- Tab 1: Data Tamu -->
+                    <div class="tab-content active" id="tab-data">
+                        <!-- Stats Grid -->
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon"><i class="fa-solid fa-address-book"></i></div>
+                                <div class="stat-info">
+                                    <span class="stat-label">Total Absen</span>
+                                    <h3 class="stat-val" id="stat-total-submissions">0</h3>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                <div class="stat-info">
+                                    <span class="stat-label">Santri</span>
+                                    <h3 class="stat-val" id="stat-santri">0</h3>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                                <div class="stat-info">
+                                    <span class="stat-label">Alumni</span>
+                                    <h3 class="stat-val" id="stat-alumni">0</h3>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon"><i class="fa-solid fa-house-chimney-user"></i></div>
+                                <div class="stat-info">
+                                    <span class="stat-label">Wali Santri</span>
+                                    <h3 class="stat-val" id="stat-wali-santri">0</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Search and Filter Bar -->
+                        <div class="search-filter-bar">
+                            <div class="search-box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" id="search-guest" placeholder="Cari nama atau ucapan...">
+                            </div>
+                            <div class="filter-box">
+                                <select id="filter-category">
+                                    <option value="all">Semua Kategori</option>
+                                    <option value="Santri">Santri</option>
+                                    <option value="Alumni">Alumni</option>
+                                    <option value="Wali Santri">Wali Santri</option>
+                                    <option value="Civitas">Civitas</option>
+                                    <option value="Lainnya">Lainnya</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Data Table Container -->
+                        <div class="table-responsive hide-on-mobile">
+                            <table class="admin-table">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Nama</th>
+                                        <th>Kategori</th>
+                                        <th>Ucapan</th>
+                                        <th>Waktu Hadir</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="admin-table-body">
+                                    <!-- Dynamic rows -->
+                                    <tr>
+                                        <td colspan="6" class="text-center">Memuat data...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Mobile Card Container (visible on mobile only) -->
+                        <div class="admin-mobile-cards show-on-mobile" id="admin-mobile-cards">
+                            <!-- Dynamic cards will be generated here -->
+                            <div class="text-center" style="padding: 20px 0; opacity: 0.8;">Memuat data...</div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: Settings -->
+                    <div class="tab-content" id="tab-settings">
+                        <form id="admin-settings-form" class="elegant-form settings-form">
+                            <div class="settings-section-title">Otomatisasi Google Sheets</div>
+                            <p class="settings-desc">Masukkan URL Web App Google Apps Script Anda untuk sinkronisasi otomatis data absensi secara online.</p>
+                            
+                            <div class="form-group">
+                                <label for="settings-script-url"><i class="fa-solid fa-link"></i> Google Apps Script URL</label>
+                                <input type="url" id="settings-script-url" placeholder="https://script.google.com/macros/s/.../exec">
+                            </div>
+                            
+                            <div class="settings-actions">
+                                <button type="submit" class="btn-gold">Simpan Pengaturan</button>
+                                <span id="settings-success-msg" class="settings-toast hidden"><i class="fa-solid fa-circle-check"></i> Pengaturan disimpan!</span>
+                            </div>
+                        </form>
+
+                        <div class="quick-guide-card">
+                            <h4><i class="fa-solid fa-circle-info"></i> Petunjuk Cepat Sinkronisasi</h4>
+                            <p>Untuk mengaktifkan sinkronisasi otomatis dengan Google Spreadsheet Anda, salin kode Apps Script yang tertera pada panduan implementasi, lakukan deployment sebagai <strong>Aplikasi Web</strong> (Web App) dengan akses <strong>"Siapa saja" (Anyone)</strong>, lalu tempelkan URL hasilnya pada kolom di atas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="backsound" src="backsound.mp3" loop></audio>
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
