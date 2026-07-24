@@ -361,6 +361,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Kirim ke Google Apps Script (menggunakan text/plain untuk bypass CORS preflight)
                     await fetch(scriptUrl, {
                         method: "POST",
+                        mode: "no-cors",
                         headers: {
                             "Content-Type": "text/plain"
                         },
