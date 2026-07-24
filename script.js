@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 1. Inisialisasi Database Lokal & Konfigurasi Default
     const DEFAULT_PASS = "angkatan36nihbos";
     // Taruh URL Google Apps Script Web App Anda di bawah ini agar sinkronisasi berfungsi secara global di HP dan laptop tamu
-    const DEFAULT_SCRIPT_URL = "https://corsproxy.io/?https://script.google.com/macros/s/AKfycbx2iMgNtNQOYGiql7ipyQk2CbE6IO_EACghWUjtKteLv7VUn8kL__mXkE2qzHaDg0aE/exec";
+    const DEFAULT_SCRIPT_URL = "https://corsproxy.io/?https://script.google.com/macros/s/AKfycbwRW51HsaeHNI7NVUs_UGo0Pwt3x1Otj8DX4dKfwZHpb3X8wBiUgT5X_O6o4bEHJGAvCg/exec";
     const MOCK_WISHES = [
         {
             id: "mock-1",
