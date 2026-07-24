@@ -31,7 +31,7 @@
                 <div class="envelope-paper" id="envelope-paper">
                     <div class="paper-decoration-top"></div>
                     <p class="envelope-text">Kepada Yth,</p>
-                    <p class="envelope-guest">Tamu Undangan</p>
+                    <h3 class="guest-name" style="color: #fc9c2f">Nama Tamu Di Sini</h3>
                     <div class="paper-decoration-bottom"></div>
                 </div>
                 <div class="envelope-front"></div>
@@ -540,6 +540,14 @@
 
     <!-- Confetti Library -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+	//Nama tamu
+	const urlParams = new URLSearchParams(window.location.search);
+const namaTamu = urlParams.get('to');
+if (namaTamu) {
+    document.querySelector('.guest-name').innerText = namaTamu;
+}
+</script>
     <script src="script.js"></script>
 </body>
 
