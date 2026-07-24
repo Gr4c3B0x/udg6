@@ -482,7 +482,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     timestamp: row.timestamp || row.timestamp || row["time stamp"] || new Date().toISOString(),
                     nama: row.nama || "",
                     alamat: row.alamat || row.asal || "",
-                    kategori: row.kategori || "Tamu Undangan",
+                    kategori: row.kategori || "",
                     jumlah: parseInt(row.jumlah || row.pax, 10) || 1,
                     ucapan: row.ucapan || ""
                 }));
