@@ -4,7 +4,7 @@
 */
 
 :root {
-    --emerald-green: #0b1f3a;
+    --emerald-green: #0b1f3a; /* Diubah dari hijau ke biru gelap */
     --dark-navy: #020617;
     --champagne-gold: #d4af37;
     --pearl-white: #f8fafc;
@@ -295,7 +295,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #022c22, #064e3b);
+    background: linear-gradient(135deg, #0f2b48, #1e3a8a);
     border-radius: 4px;
     border: 1px solid var(--champagne-gold);
     box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
@@ -357,9 +357,9 @@ ul {
     width: 0;
     height: 0;
     border-top: 110px solid transparent;
-    border-right: 160px solid #064e3b;
-    border-bottom: 110px solid #042f2e;
-    border-left: 160px solid #064e3b;
+    border-right: 160px solid #1e3a8a;
+    border-bottom: 110px solid #0b1f3a;
+    border-left: 160px solid #1e3a8a;
     z-index: 3;
     border-radius: 4px;
     pointer-events: none;
@@ -385,7 +385,7 @@ ul {
     left: 0;
     width: 0;
     height: 0;
-    border-top: 115px solid #064e3b;
+    border-top: 115px solid #1e3a8a;
     border-right: 160px solid transparent;
     border-left: 160px solid transparent;
     transform-origin: top;
@@ -508,7 +508,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(6, 78, 59, 0.8), rgba(15, 23, 42, 0.95));
+    background: linear-gradient(to bottom, rgba(30, 58, 138, 0.8), rgba(15, 23, 42, 0.95));
     z-index: 1;
 }
 
@@ -804,7 +804,7 @@ ul {
 
 .event-details {
     padding: 5rem 0;
-    background: linear-gradient(to right, rgba(6, 78, 59, 0.3), rgba(15, 23, 42, 0.5));
+    background: linear-gradient(to right, rgba(30, 58, 138, 0.3), rgba(15, 23, 42, 0.5));
 }
 
 .event-grid {
@@ -859,7 +859,7 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(6, 78, 59, 0.4);
+    background: rgba(30, 58, 138, 0.4);
 }
 
 .map-placeholder {
@@ -893,7 +893,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(6, 78, 59, 0.3), rgba(15, 23, 42, 0.5));
+    background: linear-gradient(to right, rgba(30, 58, 138, 0.3), rgba(15, 23, 42, 0.5));
     z-index: 1;
 }
 
@@ -973,7 +973,7 @@ ul {
 
 .rsvp-section {
     padding: 5rem 0;
-    background: linear-gradient(to top, rgba(6, 78, 59, 0.3), transparent);
+    background: linear-gradient(to top, rgba(30, 58, 138, 0.3), transparent);
 }
 
 .rsvp-container {
@@ -1096,9 +1096,9 @@ ul {
 }
 
 .wish-badge.attending {
-    background: rgba(6, 78, 59, 0.6);
-    color: #a7f3d0;
-    border: 1px solid #34d399;
+    background: rgba(30, 58, 138, 0.6);
+    color: #bfdbfe;
+    border: 1px solid #60a5fa;
 }
 
 .wish-badge.not-attending {
@@ -2680,37 +2680,5 @@ ul {
     .admin-mobile-card-title {
         font-weight: 600;
         color: var(--pearl-white);
-        font-size: 0.95rem;
-        flex-grow: 1;
-        margin-left: 10px;
-    }
-    
-    .admin-mobile-card-body {
-        font-size: 0.85rem;
-        color: rgba(248, 250, 252, 0.85);
-        line-height: 1.5;
-        margin-bottom: 12px;
-    }
-    
-    .admin-mobile-card-body p {
-        font-style: italic;
-        margin-top: 5px;
-        background: rgba(2, 6, 23, 0.3);
-        padding: 8px;
-        border-radius: 4px;
-    }
-    
-    .admin-mobile-card-footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.75rem;
-        color: var(--soft-gold);
-        opacity: 0.8;
-    }
-    
-    .admin-mobile-card-actions {
-        display: flex;
-        gap: 10px;
     }
 }
