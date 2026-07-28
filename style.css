@@ -23,11 +23,13 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
+    height: 100dvh;
     z-index: 999;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: opacity 0.8s ease, visibility 0.8s ease;
+    overflow: hidden;
 }
 
 .cover-overlay.hidden {
@@ -174,6 +176,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
+    height: 100dvh;
     background-color: #0a1428;
     z-index: 998;
     opacity: 0;
