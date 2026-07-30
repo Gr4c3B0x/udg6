@@ -73,7 +73,7 @@ body {
     width: 100%;
     max-width: 480px; /* Ukuran mobile frame */
     height: 100%;
-    padding: 60px 24px 40px 24px;
+    padding: 30px 24px 40px 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
