@@ -18,7 +18,7 @@ const musicToggle = document.getElementById('music-toggle');
 const backsound = document.getElementById('backsound');
 
 // Durasi ini HARUS sama dengan durasi transition CSS pada .transition-screen (0.8s)
-const TRANSITION_DURATION = 800;
+const TRANSITION_DURATION = 400;
 
 if (openBtn) {
     openBtn.addEventListener('click', () => {
